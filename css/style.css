@@ -1,14 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
 
+@font-face {
+    font-family: 'Algerian';
+    src: url('assets/fonts/AlgerianRegular.woff2');
+  }
+
 body {
     font-family: 'Libre Baskerville', Georgia, 'Times New Roman', Times, serif;
     color: #262222;
     font-size: 20px;
     background-color: #ffffff;
+    margin: 0 0 0 0;
+}
+
+header {
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff;
+    background-image: url('../assets/imgs/headermini.jpg');
+    background-repeat: no-repeat;
+}
+
+.cell1, .cell2 {
+    width: 50%;
+    margin: 0 auto;
 }
 
 h1 {
-
+    color: #990a07;
+    display: inline-block;
+    width: 80%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: right;
+    font-family: 'Algerian', Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 {
@@ -25,15 +50,25 @@ a:hover {
 
 /*  NAVIGATION BAR  */
 nav {
-
+    width: 100%;
+    background-color: #ffcf76;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 2px solid #990a07;
+    height: 50px;
 }
 
-nav.a {
-
+nav a {
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 75px;
+    padding-right: 75px;
+    color: #990a07;
 }
 
-nav.a:hover {
-
+nav a:hover {
+    color: black;
 }
 
 /*  MAIN CONTENT    */
