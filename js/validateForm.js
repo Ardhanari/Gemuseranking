@@ -25,5 +25,6 @@ form.addEventListener('submit', (e) => {
     if (messages.length > 0) {
         e.preventDefault()
         errorMsgs.innerText = messages.join("\n")
+        errorMsgs.style.display = 'block'
     }
 })
