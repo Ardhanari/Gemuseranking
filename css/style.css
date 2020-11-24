@@ -111,13 +111,12 @@ table {
 
 /*  INPUT FORM  */
 input {
-    /* border: 1px solid #990a07; */
+	/* display: block; */
 }
 
 textarea {
     border: 1px solid #990a07;
 }
-
 
 
 
