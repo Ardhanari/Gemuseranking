@@ -203,3 +203,14 @@ input:checked + input:before {
 input:checked + input ~ input:before {
 	display: none;
 }
+
+
+/* MANAGING LANGUAGES */ 
+
+#content-eng {
+	display: none;
+}
+
+#content-de {
+	display: block;
+}
