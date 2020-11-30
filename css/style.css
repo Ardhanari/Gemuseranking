@@ -122,6 +122,8 @@ table {
 
 th {
     text-align: center;
+    font-family: 'Algerian', Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
 }
 
 td {
@@ -131,6 +133,10 @@ td {
   
 tr:nth-child(even) {
     background-color: #ffe8c0;
+}
+
+video {
+    padding: 0px 140px;
 }
 
 
