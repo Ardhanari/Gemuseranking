@@ -11,6 +11,7 @@ body {
     font-size: 20px;
     background-color: #fff8ec;
     margin: 0 0 0 0;
+    line-height: 30px;
 }
 
 header {
@@ -55,12 +56,12 @@ h2 {
 
 }
 
-a {
-
+a, a:active {
+    color: #990a07;
 }
 
 a:hover {
-
+    color: #000000;
 }
 
 /*  NAVIGATION BAR  */
@@ -88,7 +89,8 @@ nav a:hover {
 
 /*  MAIN CONTENT    */
 main {
-	margin: 50px 0px;
+    margin: 50px 0px;
+    min-height: calc(100vh - 500px);
 }
 
 main > .container {
@@ -206,4 +208,21 @@ input[type=submit] {
 
 #switch-eng {
 	color: #878787;
+}
+
+
+/*   FOOTER STYLE   */
+
+footer {
+    width: 100%;
+    background-color: #ffcf76;
+    text-align: center;
+    vertical-align: middle;
+    border-top: 2px solid #990a07;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    color: #990a07;
+    /* position: absolute;
+    bottom: 0px; */
 }
