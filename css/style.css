@@ -2,14 +2,14 @@
 
 @font-face {
     font-family: 'Algerian';
-    src: url('assets/fonts/AlgerianRegular.woff2');
+    src: url('../assets/fonts/AlgerianRegular.woff2');
   }
 
 body {
     font-family: 'Libre Baskerville', Georgia, 'Times New Roman', Times, serif;
     color: #262222;
     font-size: 20px;
-    background-color: #ffffff;
+    background-color: #fff8ec;
     margin: 0 0 0 0;
 }
 
@@ -112,6 +112,29 @@ table {
     border: 0;
     width: 100%;
 }
+
+/* RANKING TABLE */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #ffe8c0;
+}
+
+
+  
 
 /*  INPUT FORM  */
 input {
